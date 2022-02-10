@@ -14,3 +14,6 @@ it is '/txbs/textbook.json', so if you want to customize, chage it.
 
 If you want add a function:
 open response.py and write the function you want to add.
+
+# library
+pytorch, numpy, nltk, discord, alive_progress
