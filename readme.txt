@@ -2,7 +2,7 @@
 it only react with messaging.
 
 # how to start a bot
-Frist, you typed your discord API key at the source code, then you can run your bot:
+Frist, you have to type your discord API key at the source code, then you can run your bot:
 $python bot.py
 
 # how to customize
