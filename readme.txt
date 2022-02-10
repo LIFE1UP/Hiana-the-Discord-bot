@@ -1,9 +1,8 @@
 # Discord Chat bot
-it only react by messaging, so every function is based on URL.
-It's easy to add a function.
+it only react with messaging.
 
 # how to start a bot
-You firstly typed your API key in code then do this:
+Frist, you typed your discord API key at the source code, then you can run your bot:
 $python bot.py
 
 # how to customize
