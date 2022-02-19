@@ -1,19 +1,12 @@
-# Discord Chat bot
-it only react with messaging.
+1. how to start a bot?
+Frist, you have to type your discord API key at 'bot.py', then you can run your bot by typing this: $python bot.py
 
-# how to start a bot
-Frist, you have to type your discord API key at the source code, then you can run your bot:
-$python bot.py
+2. how to train h!ana as you want?
+Just change the content at '/txbs/textbook.json'; then train it with typing this: $python train.py
 
-# how to customize
-You can train your bot with below:
-$python train.py
+3. If you want add your own function:
+open response.py and write the function you want to add; then chain it with bot.py.
 
-Where is TrainData:
-it is '/txbs/textbook.json', so if you want to customize, chage it.
 
-If you want add a function:
-open response.py and write the function you want to add.
-
-# library
+Using Library
 pytorch, numpy, nltk, discord, alive_progress
