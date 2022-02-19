@@ -8,5 +8,5 @@ Just change the content at '/txbs/textbook.json'; then train it with typing this
 open response.py and write the function you want to add; then chain it with bot.py.
 
 
-# Using Library
+# using libraries
 pytorch, numpy, nltk, discord, alive_progress
