@@ -4,7 +4,7 @@ Frist, you have to type your discord API key at 'bot.py', then you can run your 
 # 2. how to train h!ana as you want?
 Just change the content at '/txbs/textbook.json'; then train it with typing this: $python train.py
 
-# 3. If you want add your own function:
+# 3. if you want add your own function:
 open response.py and write the function you want to add; then chain it with bot.py.
 
 
