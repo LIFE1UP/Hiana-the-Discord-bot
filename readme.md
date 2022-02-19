@@ -7,6 +7,6 @@ Just change the content at '/txbs/textbook.json'; then train it with typing this
 # 3. if you want add your own function:
 open response.py and write the function you want to add; then chain it with bot.py.
 
-# -- -- -- -- --
+
 # Using Library
 pytorch, numpy, nltk, discord, alive_progress
