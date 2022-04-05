@@ -1,3 +1,10 @@
+## import
+* pytorch
+* alive_progress
+* numpy
+* nltk
+* pandas
+
 # 하이아나는 딥러닝 디스코드 봇
 
 ## 활성화 시키기
