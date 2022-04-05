@@ -18,7 +18,7 @@ response.py를 편집해서 기능을 추가할 수 있습니다. 러닝타임�
 # Hiana the Deep Learning Discord Bot
 
 ## Activate the Bot
-1. edit bot.py to add Discord API Key(**Token**)
+1. edit bot.py to add **Discord API Key**(Token)
 2. $python bot.py to activate Hiana
 
 ## Teach the Bot
@@ -26,5 +26,5 @@ response.py를 편집해서 기능을 추가할 수 있습니다. 러닝타임�
 2. $python train.py to make the bot learn them
 
 ## Add new Function
-from response.py, you can add or delete function. Every function may pass through Dic; and should return string type
+from response.py, you can add or delete function. Every function may pass through **Dic**; and should return string type
 > there is a music recommendation module for default; one of it is uses URL, the other uses CSV
