@@ -8,9 +8,9 @@
 # 하이아나는 딥러닝 디스코드 봇
 
 ## 활성화 시키기
-1. bot.py를 열고 Discord API key 부분에 지정받은 **token**을 넣어줍니다. <br />
-2. 터미널을 열고 $python bot.py를 타이핑합니다. <br />
-3. 하이아나가 동작됩니다.
+1. bot.py를 열고 **Discord API key** 부분에 지정받은 토큰을 넣어줍니다. <br />
+2. 첫 실행시엔 **install_library.exe**를 실행합니다. <br />
+3. **run.exe**를 실행시키면 하이아나가 동작합니다. <br />
 
 ## 훈련시키기
 1. 'txbs/textbook.json'에서 데이터를 이해하고 적절하게 바꾸면; 새로운 문맥이나 대사를 추가할 수 있습니다. <br />
@@ -26,7 +26,8 @@ response.py를 편집해서 기능을 추가할 수 있습니다. 러닝타임�
 
 ## Activate the Bot
 1. edit bot.py to add **Discord API Key**(Token)
-2. $python bot.py to activate Hiana
+2. at first, run **install_library.exe**
+3. run **run.exe**
 
 ## Teach the Bot
 1. edit 'txbs/textbook.json' after understanding its structures; you can add new context or line to response
