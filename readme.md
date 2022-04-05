@@ -1,4 +1,4 @@
-## import
+## Import
 * pytorch
 * alive_progress
 * numpy
