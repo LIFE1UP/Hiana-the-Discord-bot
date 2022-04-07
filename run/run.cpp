@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 int main(int argc, char *argv[]) {
     std::cout << "s for activate the bot\ni for install the bot(needed at first running)\nu for update\nl for teach the bot\ne for eval the bot\n";
