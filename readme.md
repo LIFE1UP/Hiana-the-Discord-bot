@@ -9,13 +9,13 @@
 
 ## 활성화 시키기
 1. bot.py를 열고 **Discord API key** 부분에 지정받은 토큰을 넣어줍니다. <br />
-2. 첫 실행시엔 **install_library.exe**를 실행합니다. <br />
-3. **run.exe**를 실행시키면 하이아나가 동작합니다. <br />
+2. **run.exe**를 실행시키고 's'를 명령하면 하이아나가 동작합니다. <br />
+> 첫실행시에는 'i' 명령어를 통해 패키지를 설치합니다.
 
 ## 훈련시키기
 1. 'txbs/textbook.json'에서 데이터를 이해하고 적절하게 바꾸면; 새로운 문맥이나 대사를 추가할 수 있습니다. <br />
-2. 터미널을 열고 $python train.py를 타이핑합니다. <br />
-3. 하이아나가 학습을 합니다.
+2. **run.exe**에서 'l' 명령어를 내리면 하이아나가 학습을 합니다. <br />
+> 하이아나가 읽을 교과서의 기본 경로는 'txbs/textbook.json'입니다.
 
 ## 기능을 추가하기
 response.py를 편집해서 기능을 추가할 수 있습니다. 러닝타임에서 모든 기능은 사전으로 접근되어지며; 그 기능의 함수는 스트링을 반환해야만 합니다. <br />
@@ -26,12 +26,13 @@ response.py를 편집해서 기능을 추가할 수 있습니다. 러닝타임�
 
 ## Activate the Bot
 1. edit bot.py to add **Discord API Key**(Token)
-2. at first, run **install_library.exe**
-3. run **run.exe**
+2. run **run.exe** then command 's' to activate your bot
+> at first running, you should install all the pacakge by 'i' command
 
 ## Teach the Bot
 1. edit 'txbs/textbook.json' after understanding its structures; you can add new context or line to response
-2. $python train.py to make the bot learn them
+2. at **run.exe**, command 'l' to teach the bot
+> default path of textbook Hiana read is 'txbs/textbook.json'
 
 ## Add new Function
 from response.py, you can add or delete function. Every function may pass through **Dic**; and should return string type
