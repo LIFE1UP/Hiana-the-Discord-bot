@@ -2,6 +2,10 @@ import pandas as pd
 import urllib.request
 import re
 import random
+import os
+import discord
+
+async def messaging(line): await message.channel.send(line)
 
 ## Find a Music with Keywords ##
 def search(key):
@@ -29,27 +33,23 @@ def spotify_playlist(playlist):
     return search(key.replace(" ", "+"))
 # def
 
-## Dictionary ##
+def greeting(): return "안녕하세요"
+
 fn = {
-    # charts
-    "korean_music":spotify_chart,
-    "us_music":spotify_chart,
-    # playlists
-    "kawaii_music":spotify_playlist}
+    "greeting":greeting
+} # fn
 
 url_address = {
-    # charts
     "korean_music":"kr",
     "us_music":"us",    
     # playlists
-    "kawaii_music":"2oh42HDoUAIwl1LVQ5Z0aR?si=84d6722e141b4194&nd=1"}
+    "music":"2oh42HDoUAIwl1LVQ5Z0aR?si=84d6722e141b4194&nd=1"
+}
 
 ## Response ##
-def response(tag):
-    if not tag in fn:
-        return None
-
-    return fn[tag](url_address[tag])
+def order(tag):
+    if not tag in fn: return None
+    fn[tag]()
 # def
 
 print("response.py ", end="")
