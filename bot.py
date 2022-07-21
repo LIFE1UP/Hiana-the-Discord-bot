@@ -47,7 +47,7 @@ async def on_message(message):
     prob = probs[0][prediction.item()]
 
     if prob < 0.75: await message.channel.send("뭔 말하는지 모르겠어")
-    else: cmd(tag)
+    else: cmd[tag]()
 
     return
 # on_message()
