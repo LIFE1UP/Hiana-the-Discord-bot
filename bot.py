@@ -27,8 +27,17 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = NeuralNet(inpt_parameters, hidn_parameters, oupt_parameters).to(device)
 model.load_state_dict(state)
 
+"""
+cmd = {
+    "greet" : greet,
+    "music_search" : msuic_search,
+    "censor" : censor
+} # cmd
+"""
+
 """ discord """
 client = discord.Client( activity=discord.Game(name="Being Alone") )
+
 @client.event
 async def on_ready(): print('logged in as {0.user}'.format(client))
 
